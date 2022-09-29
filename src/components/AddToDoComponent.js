@@ -26,11 +26,11 @@ export default function AddToDoComponent() {
   };
   return (
     <>
-    <Paper elevation={3}>
+    <Paper style={{marginTop:'-36px'}} elevation={3}>
       <div class="container text-center">
         <div class="row mb-3">
           <div class="col-12">
-          <Typography variant="h5" gutterBottom>
+          <Typography className="MuiCardHeader-title" gutterBottom>
           IF MONITOR ARE NOT WORKING, PLEASE CONTACT ENGINEERING / MAINTENANCE TEAM
       </Typography>
           </div>

@@ -1,5 +1,8 @@
 .hAUCUH {
     width: 400px !important;
+    font-size: small !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: initial !important;
 }
 
 .rdotop {
@@ -9,3 +12,32 @@
 .JxKOU {
     visibility: hidden;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #6dd5ed;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content-holder {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .content {
+    /* you dont need this, it will grow based on the content */
+    min-height: 200vh;
+  }
+  
+  .MuiCardHeader-title {
+    font-size: medium !important;
+  }
+  

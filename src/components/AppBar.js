@@ -21,6 +21,9 @@ export default function AppBarComponent() {
           >
             <Menu />
           </IconButton>
+          <Typography>
+            Foods Mobile Responsive App
+          </Typography>
         </Toolbar>
       </AppBar>
     </Box>

@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 import AddToDoComponent from './AddToDoComponent';
 import ToDoListComponent from './ToDoListComponent';
 import SurveyComponent from './SurveyComponent';
+import BottomBarComponent from './BottomBarComponent';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -21,7 +22,7 @@ export default function MainComponent() {
       <Grid container spacing={2}>
         <Grid item xs={10}>
           <Item>
-            <p style={{fontSize:'30px', fontFamily:'monospace', color:'red'}}>The survey will take approximately 12 minutes to complete.
+            <p style={{fontSize:'large', fontFamily:'monospace', color:'red'}}>The survey will take approximately 12 minutes to complete.
 Rounds takes place four (4) times per 12 hour shifts and three (3) per 8 hour shift</p>
             {/* <AddToDoComponent /> */}
             <SurveyComponent />

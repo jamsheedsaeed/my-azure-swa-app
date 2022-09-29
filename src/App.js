@@ -18,9 +18,15 @@ function App() {
   // })
   return (
     <>
-      <AppBarComponent />
-      <MainComponent />
-      <BottomBarComponent />
+     <div className="app">
+      <div className="content-holder">
+        <div className="content">
+          <AppBarComponent />
+          <MainComponent />
+        </div>
+        </div>
+          <BottomBarComponent />
+        </div>
     </>
   ) 
 }
