@@ -21,8 +21,8 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "playwright_test": "playwright test",
     "eject": "react-scripts eject"
