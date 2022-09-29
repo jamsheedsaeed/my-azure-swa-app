@@ -23,7 +23,7 @@ export default function SurveyComponent(){
                     name: "favorite-fruit",
                     title: "PERFORMANCE WALK IS HAPPENING FOR WHICH LINE?",
                     type: "dropdown",
-                    choices: ["Apple", "Orange", "Watermelon"]
+                    choices: ["Line1", "Line2", "Line3"]
                 },
                 {
                     choices: ["1st Round (Power Walk/Hand Off)", "2nd Round-1st hour", "3rd Round-3rd hour", "4th Round-5th hour", "5th Round-7th hour (Power Walk/hand off)"],
