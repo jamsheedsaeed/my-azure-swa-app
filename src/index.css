@@ -19,11 +19,9 @@ body {
   }
   
   .app {
-    font-family: sans-serif;
-    text-align: center;
-    background-color: #6dd5ed;
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI Regular';
     height: 100vh;
   }
   

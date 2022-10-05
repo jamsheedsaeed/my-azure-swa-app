@@ -10,7 +10,7 @@ import { Menu } from '@material-ui/icons';
 export default function AppBarComponent() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed">
+      <AppBar position="fixed" sx={{ bgcolor:'#fff', height:'12%' }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -21,8 +21,8 @@ export default function AppBarComponent() {
           >
             <Menu />
           </IconButton>
-          <Typography>
-            Foods Mobile Responsive App
+          <Typography style={{ color: '#444444', textAlign:'center', marginLeft:'40%', fontFamily: 'Segoe UI SemiBold', fontSize:'40px' }}>
+            Floor Walk
           </Typography>
         </Toolbar>
       </AppBar>

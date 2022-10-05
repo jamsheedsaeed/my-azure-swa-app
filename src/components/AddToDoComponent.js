@@ -13,6 +13,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -54,6 +55,7 @@ export default function AddToDoComponent() {
     </FormControl>
             </Grid>
         </Grid>
+        <TextField fullWidth label="Enter Comments" id="fullWidth" />
         </div>
       </div>
       </Paper>
